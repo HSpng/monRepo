@@ -8,3 +8,4 @@ git checkout master	:	revient au commit plus réçent
 git revert "SHA"	:	fait l'inverse du commit préçédent
 git clone "lienGitHub"	:	télécharge un repository de github
 git push origin master	:	envoie la branche master sur github
+git pull origin master	:	récupère les dernière modifs sur github
