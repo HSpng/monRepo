@@ -1,0 +1,10 @@
+git init 	:	répertoir courant en master
+git add "monfichier.js"		:	ajoute un fichier à l'index
+git commit -m "mon commentaire"		:	enregistre les modifs
+	   -am					ajoute à l'index les fichier déjà existants + enregistre
+git log		:	consulte l'historique
+git checkout "SHA"	:	se positionne sur un commit
+git checkout master	:	revient au commit plus réçent
+git revert "SHA"	:	fait l'inverse du commit préçédent
+git clone "lienGitHub"	:	télécharge un repository de github
+git push origin master	:	envoie la branche master sur github
